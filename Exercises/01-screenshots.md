@@ -67,7 +67,7 @@ The most common way to skip tests is to comment them out in the code
 
 ## Create a test
 
-Let's create a test that goes to the `dynamic_loading/2` page, takes a screenshot, clicks the start button, confirms that the "Hello World" text is visible, and take another screenshot.
+Let's create a test that goes to the [dynamic_loading/2](http://the-internet.herokuapp.com/dynamic_loading/2) page, takes a screenshot, clicks the start button, confirms that the "Hello World" text is visible, and take another screenshot.
 
 1. Begin by creating a file in the `page objects` folder called dynamic_loading.page.js
 
