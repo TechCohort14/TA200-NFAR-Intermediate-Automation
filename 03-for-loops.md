@@ -6,10 +6,20 @@ In this lesson, we will take a look at what JavaScript loops are. We will also g
 
 ## What is a Javascript Loop?
 
-Loops offer a quick and easy way to do something repeatedly. This chapter of the JavaScript Guide introduces the different iteration statements available to JavaScript.
+Loops provide a quick and easy way to repeatedly run a command.
 
-You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction, then Y steps in another. For example, the idea "Go five steps to the east" could be expressed this way as a loop:
+```javascript
+for (let i = 0; i < 6; i++) {
+  // Runs 6 times, with values of step 0 through 5.
+  console.log('Plus 1');
+}
 
+```
+In Javascript there are many different kinds of loops however, they all essentially do the same thing: they repeat an action some number of times. (Note that it's possible that number could be zero!)
+
+The various loop mechanisms offer different ways to determine the start and end points of the loop. There are various situations that are more easily served by one type of loop over the others.
+
+The statements for loops provided in JavaScript are:
 ---
 
 ## Basic Grammer
