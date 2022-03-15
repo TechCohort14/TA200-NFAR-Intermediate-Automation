@@ -4,7 +4,7 @@ In this lesson, we will take a look at what JavaScript loops are. We will also g
 
 ---
 
-## What is a Javascript Loop?
+## What are Loop?
 
 Loops provide a quick and easy way to repeatedly run a command.
 
@@ -15,165 +15,92 @@ for (let i = 0; i < 6; i++) {
 }
 
 ```
-In Javascript there are many different kinds of loops however, they all essentially do the same thing: they repeat an action some number of times. (Note that it's possible that number could be zero!)
-
-The various loop mechanisms offer different ways to determine the start and end points of the loop. There are various situations that are more easily served by one type of loop over the others.
-
-The statements for loops provided in JavaScript are:
----
-
-## Basic Grammer
-
-Javascript is case-sensitive, so the variables `fun` and `Fun` are not equal. Instructions in Javascript are called statements and are separated by a semicolon. `(;)`
-Writing a semicolon after a statement even when it is not strictly needed, is considered best practice. This reduces the chances of introducing bugs into the code.
-
-**Declarations**
-
-There are 3 types of variable declarations in Javascript, `var`, `let`, `const`.
-
-`var`
-
-Declares a variable, optionally initializing it to a value.
-
-```js
-var age = 10;
-```
-or...
-
-```js
-var ages = [];
-```
-
-`let`
-
-Declares a block-scoped, local variable, optionally initializing it to a value.
-
-```js
-let currentAge =  10;
-```
-
-`const`
-
-Declares a block-scoped, read-only named constant.
+In Javascript there are many different kinds of loops however, but they all do essentially the same thing, which is repeat an action a number of times. (Keep in mind that it's possible that number could be zero!)
 
 ---
 
-## Variables
+## `for` Loops
 
-Variables are used as symbolic names for values in your application. The names of variables, called "identifiers", conform to certain rules.
+A `for` loop will repeats until a condition is false. A `for` loop looks like this:
 
-JavaScript identifiers must start with a letter, underscore (_), or a dollar sign ($). Subsequent characters can also be digits (0–9).
-
-JavaScript is case-sensitive. It is important to remember that letters include the characters "A" through "Z" (uppercase) as well as "a" through "z" (lowercase).
-
-
-There are two ways to declare a variable:
-
--  Using the keyword `var`
-
-```js
-var a = 30
+```javascript
+for ([initialExpression]; [conditionExpression]; [incrementExpression]) {
+  statement
+  }
 ```
-You can use this syntax to declare both local and global variables, depending on the execution context.
+- The inital expression is executed (one time) before the execution of the code block.
 
+- The condition expression defines the condition for executing the code block.
 
--  Using the keyword `let` or `const`
+- The increment expression is executed (every time) after the code block has been executed.
 
-```js
-let b = 10
-
-const c = 12
+```javascript
+for (let i = 0; i < 7; i++) {
+  text += "The number is " + i + "<br>";
+}
 ```
+From the example above, you can read:
 
-You can use this syntax to declare a block-scope local variable.
+The first section sets a variable before the loop starts (let i = 0).
 
-A variable is considered a global variable when it is declared outside of any function. It is available to any other code in the current document.
+The second section defines the condition for the loop to run (i must be less than 7).
 
-A variable is considered a local variable when it is declared within a function. It is only available within that function.
+The third section increases a value (i++) each time the code block in the loop has been executed.
 
 
-If a variable is declared without being assigned a value, the value is considered undefined.
 
-Attempting to access an undeclared variable will throw a ReferenceError. 
+When a `for` loop executes, the following occurs:
 
-```js
-var n;
-console.log('The value of n is equal to' + n); // The value of n is equal to undefined
-```
+1. The initializing expression `initialExpression`, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
 
-**Constants**
+2. The `conditionExpression`  is evaluated. If the value of `conditionExpression` is true, the loop statements execute. If the value of `condition` is false, the `for` loop terminates. (If the `condition` expression is omitted entirely, the condition is assumed to be true.)
 
-Constants are read-only variables. You can create them using the keyword `const`.
+3. The `statement` executes. To execute multiple statements, use a block statement (`{ ... }`) to group those statements.
 
-The syntax is the same as `var` and `let`: it must start with a letter, underscore, or a dollar sign ($), and can contain alphabetic, numeric, or underscore characters.
+4. If present, the update expression `incrementExpression` is executed.
 
-```js
-const number = 9;
-```
+5. Control returns to Step 2.
 
-Just like the name implies a constant cannot change value through assignment or be re-declared while the script is running. It must be initialized to a value.
+**Example**
 
-The scope rules for constants are the same as those for `let` block-scope variables. If the   `const` keyword is omitted, the identifier is assumed to represent a variable.
+In the example below, the function contains a `for` statement that counts the number of selected options in a scrolling list (a <select> element that allows multiple selections). The for statement declares the variable i and initializes it to 0. It checks that i is less than the number of options in the <select> element, performs the succeeding if statement, and increments i by 1 after each pass through the loop.
 
-You cannot declare a constant with the same name as a function or variable in the same scope. For example:
 
-```js
-// THIS WILL CAUSE AN ERROR
-function i() {};
-const i = 4;
+```javascript
+<form name="selectForm">
+  <p>
+    <label for="musicTypes">Choose some music types, then click the button below:</label>
+    <select id="musicTypes" name="musicTypes" multiple="multiple">
+      <option selected="selected">Pop</option>
+      <option>Dance</option>
+      <option>HipHop</option>
+      <option>Alternative</option>
+      <option>Classical</option>
+      <option>Contemporary</option>
+    </select>
+  </p>
+  <p><input id="btn" type="button" value="How many are selected?" /></p>
+</form>
 
-// THIS WILL ALSO CAUSE AN ERROR
-function f() {
-  const g = 5;
-  var g;
-
+<script>
+function howMany(selectObject) {
+  let numberSelected = 0;
+  for (let i = 0; i < selectObject.options.length; i++) {
+    if (selectObject.options[i].selected) {
+      numberSelected++;
+    }
+  }
+  return numberSelected;
 }
 
+let btn = document.getElementById('btn');
+btn.addEventListener('click', function() {
+  alert('Number of options selected: ' + howMany(document.selectForm.musicTypes));
+});
+</script>
+
 ```
 
-## Data types
-
-There are eight data types:
-
-*Seven primitive*
-
-1. Boolean -  means either `true` or `false`
-2. null - a special keyword denoting a null value (Nothingness).
-3. undefined - value is not defined.
-4. Number - an integer or floating-point number. For example 42 or 3.14159.
-5. Big-Int - an integer with arbitrary precision. For example: 9007199254740992n.
-6. String - a sequence of characters that represent a text value. For example: "Hello"
-7. Symbol -  a data type whose instances are unique and immutable.
-8. Object - you can think of Objects as a named container for values.
 
 
-Variables and data types go hand in hand. A variable's purpose is to store data. Data types are simply the types of data that can be stored in variables.
-
-Let's take a look at how changing the data type affects our result.
-
-```js
-var firstNum = 1;
-
-var secondNum = 5;
-
-var result = firstNum + secondNum;
-
-console.log(result);
-
-// This will log: 6
-```
-
-```js
-// However if we changed the numbers to strings
-var firstNum = "1";
-
-var secondNum = "5";
-
-var result = firstNum + secondNum;
-
-console.log(result);
-
-// This will log: 15
-```
-
-Take the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
+Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
