@@ -63,7 +63,7 @@ When a `for` loop executes, the following occurs:
 
 **Example**
 
-In the example below, the function contains a `for` statement that counts the number of selected options in a scrolling list (a <select> element that allows multiple selections). The for statement declares the variable i and initializes it to 0. It checks that i is less than the number of options in the <select> element, performs the succeeding if statement, and increments i by 1 after each pass through the loop.
+In the example below, the function contains a `for` statement that counts the number of selected options in a scrolling list (a `<select>` element that allows multiple selections). The for statement declares the variable `i` and initializes it to 0. It checks that `i` is less than the number of options in the `<select>` element, performs the succeeding if statement, and increments `i` by 1 after each pass through the loop.
 
 
 ```javascript
@@ -122,7 +122,7 @@ If the `condition` is true, the statement executes again. At the end of every ex
 
 **Example**
 
-In the following example, the `do` loop iterates at least once and reiterates until i is no longer less than 9.
+In the following example, the `do` loop iterates at least once and reiterates until `i` is no longer less than 9.
 
 ```js
 let i = 0;
