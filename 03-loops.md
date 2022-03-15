@@ -1,4 +1,4 @@
-# EXERCISE 03: For Loops
+# EXERCISE 03: Loops
 
 In this lesson, we will take a look at what JavaScript loops are. We will also go over the syntax and use cases for a For Loop.
 
@@ -101,6 +101,82 @@ btn.addEventListener('click', function() {
 
 ```
 
+---
+
+## `do while` Statement
+
+The `do...while` statement will continue to repeats until a specified condition evaluates to false.
+
+Below is an example.
+
+```js
+do
+  statement
+while (condition);
+
+```
+
+The statement is always executed once before the condition is checked. In order to execute multiple statements, use a block statement (`{ ... }`) to group those statements together.
+
+If the `condition` is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is `false`, execution stops, and control passes to the statement following `do...while`.
+
+**Example**
+
+In the following example, the `do` loop iterates at least once and reiterates until i is no longer less than 9.
+
+```js
+let i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i < 9);
+```
+
+---
+
+## `while` statement
 
 
+A `while` statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+
+```js
+while (condition)
+  statement
+```
+If the condition becomes `false`, statement within the loop stops executing and control passes to the statement following the loop.
+
+The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns `false`, execution stops, and control is passed to the statement following `while`.
+
+To execute multiple statements, use a block statement (`{ ... }`) to group those statements.
+
+**Example**
+
+The following `while` loop iterates as long as n is less than 3:
+
+```js
+let y = 0;
+let z = 0;
+while (y < 3) {
+  y++;
+  z += y;
+}
+```
+
+With each iteration, the loop increments `y` and adds that value to `z`. Therefore, `z` and `y` take on the following values:
+
+After the first pass: y = 1 and z = 1
+After the second pass: y = 2 and z = 3
+After the third pass: y = 3 and z = 6
+After completing the third pass, the condition y < 3 is no longer true, so the loop terminates.
+
+**Example**
+
+Avoid infinite loops. Make sure the condition in a loop eventually becomes false—otherwise, the loop will never terminate! The statements in the following while loop execute forever because the condition never becomes false:
+
+```js
+// Infinite loops are not good!
+while (true) {
+  console.log('Hello, world!');
+}
+```
 Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
