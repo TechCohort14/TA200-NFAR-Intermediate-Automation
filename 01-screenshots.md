@@ -4,7 +4,7 @@ Throughout this course you will be able to complete tests and exercises with the
 
 Take a moment to review the links and familiarize yourself with the user interface that we will use to practice creating tests.
 
-For this lesson, you will implement saving screenshots. You may use anny outside documentation to help you with the syntax. [Screenshots](https://webdriver.io/docs/api/browser/saveScreenshot/)
+For this lesson, you will implement saving screenshots. You may use any outside documentation to help you with the syntax. [Screenshots](https://webdriver.io/docs/api/browser/saveScreenshot/)
 
 
 
