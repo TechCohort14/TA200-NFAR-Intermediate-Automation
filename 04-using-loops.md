@@ -4,7 +4,7 @@ Throughout this course you will be able to complete tests and exercises with the
 
 Take a moment to review the links and familiarize yourself with the user interface that we will use to practice creating tests.
 
-For this project, you will add a `for` loop in one of your test. We will be testing the [Add/ Remove Elements](http://the-internet.herokuapp.com/add_remove_elements/) page. You may use any outside documentation or refer back to any previous lessons to help you with the synyax.
+For this assignment, we will implement using a `for` loop in our test. We will be testing the [Add/ Remove Elements](http://the-internet.herokuapp.com/add_remove_elements/) page. You may use any outside documentation or refer back to any previous lessons to help you with the synyax.
 
 
 
