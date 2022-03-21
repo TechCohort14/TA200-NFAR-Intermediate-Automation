@@ -11,6 +11,10 @@
   - [Exercise 01: Saving Screenshots](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/01-screenshots.md)
   - [Exercise 02: Introduction to Javascript](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/02-intro-to-javascript.md)
   - [Exercise 03: Loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/03-loops.md)
+  - [Exercise 04: Project 01: Using a for Loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/04-using-loops.md)
+  - [Exercise 05: Conditional Statements](#)
+
+
 ---
 
 ## General Information
