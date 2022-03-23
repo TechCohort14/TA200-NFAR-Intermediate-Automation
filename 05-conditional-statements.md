@@ -6,13 +6,13 @@ In this lesson, we will take a look conditional statements in Javascript.
 
 ## Conditional Statements
 
-In JavaScript, when we need to perform an action based on a condition we use conditional statements.
+In JavaScript, when we need to perform an action based on a condition, we use conditional statements.
 
 ### `if` Statements
 
 - `if` statement is used to specify a block of code that is to be executed, if a specified condition is true.
 
-**Note:** *Remember that Javascript is case-sensitive. `if` should be in lowercase letters. `If` or `IF` will throw angree error.*
+**Note:** *Remember that Javascript is case-sensitive. `if` should be in lowercase letters. `If` or `IF` will throw an error.*
 
 
 ```js
@@ -23,7 +23,7 @@ if (condition) {
 
 **Example**
 
-In the example below if `time` is greater than `19` or 7 PM, then the log will be `"Good Night"`.
+In the example below if `time` is greater than or equal to `19`, then log `"Good Night"`.
 
 ```js
 if (time >= 19) {
