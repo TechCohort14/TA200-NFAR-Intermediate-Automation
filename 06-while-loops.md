@@ -127,6 +127,20 @@ false && "cat"
 0 && "cat"
 // ↪ 0
 ```
+
+
+#### The logical OR operator, `||`
+
+The logical OR (`||`) operator checks if a set of operands is true, if and only if one or more of its operands is true. It is typically used with boolean values. However, the `||` operator actually returns the value of one of the specified operands, so if this operator is used with non-Boolean values, it will return a non-Boolean value.
+
+```js
+const c = 4;
+const d = -3;
+
+console.log(c > 0 || d > 0);
+// expected output: true
+```
+
 ---
 
 ## Using a while loops
