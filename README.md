@@ -12,7 +12,9 @@
   - [Exercise 02: Introduction to Javascript](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/02-intro-to-javascript.md)
   - [Exercise 03: Loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/03-loops.md)
   - [Exercise 04: Project 01: Using a for Loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/04-using-loops.md)
-  - [Exercise 05: Conditional Statements](#)
+  - [Exercise 05: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+  - [Exercise 06: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+
 
 
 ---

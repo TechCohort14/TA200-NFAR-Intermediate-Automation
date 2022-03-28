@@ -163,7 +163,7 @@ Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.
 Exit Criteria.
 
 
-1. Create a `if` statement. 
+1. Create an `if` statement. 
 
 2. The condition: is checkbox1 unchecked . 
 
