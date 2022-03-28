@@ -4,7 +4,7 @@ In this lesson, we will examine the `while` loop in Javascript.
 
 ---
 
-## What are `while` loop?
+## What are `while` loops?
 
 The `while` loop executes a specified statement in a loop, as long as the test condition is determined to be true. Before the statement is executed, the condition is checked.
 

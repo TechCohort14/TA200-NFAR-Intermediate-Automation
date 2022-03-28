@@ -1,4 +1,4 @@
-# Project 01: Using A for Loop
+# Project 01: Using a `for` loop
 
 Throughout this course you will be able to complete tests and exercises with the following test site: [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/)
 

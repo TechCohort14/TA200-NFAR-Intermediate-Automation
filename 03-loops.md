@@ -4,7 +4,7 @@ In this lesson, we will take a look at what JavaScript loops are. We will also g
 
 ---
 
-## What are Loop?
+## What are Loops?
 
 Loops provide a quick and easy way to repeatedly run a command.
 
