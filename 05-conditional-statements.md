@@ -23,7 +23,7 @@ if (condition) {
 
 **Example**
 
-In the example below if `time` is greater than or equal to `19`, then log `"Good Night"`.
+In the example below, if `time` is greater than or equal to `19`, then log `"Good Night"`.
 
 ```js
 if (time >= 19) {
