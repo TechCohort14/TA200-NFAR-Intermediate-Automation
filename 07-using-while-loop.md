@@ -82,10 +82,6 @@ The most common way to skip tests is to comment them out in the code
 2. Create the `class`, `selectors`, and anything required to select elements on the 'dynamically loaded page'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on creating how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use multiple different types of selectors to complete this assignment. When selecting multiple elements, remember to use the [`$$`](https://webdriver.io/docs/api/browser/$$/) syntax. 
 
 
-3. Create your test called `dynamically.loaded.spec.js`. Use the `example.e2e` file as an example. 
-*Hint: Choosing the appropriate [assertion](https://webdriver.io/docs/api/expect-webdriverio/#tobeelementsarrayofsize) is key*
-
-
 ---
 
 Exit Criteria.
