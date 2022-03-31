@@ -17,7 +17,7 @@ while (example) {  // evaluates whether the variable is ture
 
 ---
 
-For this assignment, we will implement using a `while` loop in our test. We will be testing the [Dynamically Loaded Page Elements](http://the-internet.herokuapp.com/dynamic_loading/2) page. Use a `while` to logs a message as long as the loading bar is visible on the page.  You may use any outside documentation or refer back to any previous lessons to help you with the syntax.
+For this assignment, we will implement using a `while` loop in our test. We will be testing the [Dynamically Loaded Page Elements](http://the-internet.herokuapp.com/dynamic_loading/2) page. Use a `while` to logs a message as long as the h4 is not visible on the page. You may use any outside documentation or refer back to any previous lessons to help you with the syntax.
 
 
 ## Setup Webdriver
