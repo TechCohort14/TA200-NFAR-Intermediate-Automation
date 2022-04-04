@@ -4,18 +4,18 @@
 
 ## Table of Contents
 
-  - [Table of Contents](#table-of-contents)
-  - [General Information](#general-information)
-  - [Technology Used](#technologies-used)
-  - [Setup](#setup)
-  - [Exercise 01: Saving Screenshots](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/01-screenshots.md)
-  - [Exercise 02: Introduction to Javascript](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/02-intro-to-javascript.md)
-  - [Exercise 03: Loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/03-loops.md)
-  - [Exercise 04: Project 01: Using a for Loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/04-using-loops.md)
-  - [Exercise 05: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
-  - [Exercise 06: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
-
-
+- [Table of Contents](#table-of-contents)
+- [General Information](#general-information)
+- [Technology Used](#technologies-used)
+- [Setup](#setup)
+- [Exercise 01: Saving Screenshots](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/01-screenshots.md)
+- [Exercise 02: Introduction to Javascript](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/Exercises/02-intro-to-javascript.md)
+- [Exercise 03: Loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/03-loops.md)
+- [Exercise 04: Project 01: Using a for Loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/04-using-loops.md)
+- [Exercise 05: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+- [Exercise 06: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+- [Exercise 07: Using while loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+- [Exercise 08: More on loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
 
 ---
 
@@ -31,14 +31,13 @@ By the end of this course students will:
 ---
 
 ## Technologies Used
+
 - Node.js
 - VS Code
-- Webdriver IO 
+- Webdriver IO
 - Docker Desktop Application
 
-
 ---
-
 
 ## Setup
 
@@ -47,4 +46,5 @@ You will need to have Node js and a code editor installed before begining this c
 ---
 
 ## Contact
+
 Created by [@cccareers](https://github.com/cccareers)
