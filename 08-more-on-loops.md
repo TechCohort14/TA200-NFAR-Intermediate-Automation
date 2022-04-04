@@ -1,6 +1,6 @@
 # Exercise 08: More on loops
 
-Let's take a look at a few examples.
+Let's review some topics from previous lessons.
 
 We use a `for` loop when we know how many time we want to run a loop.
 
@@ -37,7 +37,7 @@ Try changing the condition to say `n <= 100`. What will the output be?
 
 How would we change the code to log either multiples of 2 or 5?
 
-----------------------
+---
 
 ## Practice exercises
 
@@ -59,5 +59,40 @@ Create a loop that will log a warning message when you down to a quater tank of 
 Create a loop that will tell you how many gallons are required for your trip. Let's assume that your vehicle gets 22 miles per gallon, and the trip is 100 miles.
 
 Create 2 other scenarios and creat a loop to solve them.
+
+---
+
+Now let's go through methods ans when to use them.
+
+```javascript
+/**
+ * login.page.js
+ * 
+     * a method to encapsule automation code to interact with the page
+     * e.g. to login using username and password
+     */
+    async login (username, password) {
+        await this.inputUsername.setValue(username);
+        await this.inputPassword.setValue(password);
+        await this.btnSubmit.click();
+    }
+
+```
+
+When we first initialize Webdriver, we are given the example above in our `login.page.js` file. The example method `login` takes two parameters, `username` and `password`, and runs a set of instructions. It first sets the value of `username` to the `inputUsername` element. Second, it sets the value of `password` to the `inputPassword` element. Finally, it clicks the submit button. This entire method will run whenever the user calls the `login` method, along with the corresponding parameters.
+
+```javascript
+describe('My Login application', () => {
+    it('should login with valid credentials', async () => {
+        await LoginPage.open();
+
+        await LoginPage.login('tomsmith', 'SuperSecretPassword!');
+        await expect(SecurePage.flashAlert).toBeExisting();
+        await expect(SecurePage.flashAlert).toHaveTextContaining(
+            'You logged into a secure area!');
+    });
+```
+
+Now you give it a try. Create a method that runs a set of instructions when called. Use any one of the pages on [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/).
 
 Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
