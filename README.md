@@ -14,8 +14,8 @@
 - [Exercise 04: Project 01: Using a for Loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/04-using-loops.md)
 - [Exercise 05: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
 - [Exercise 06: Conditional Statements](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
-- [Exercise 07: Using while loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
-- [Exercise 08: More on loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/05-conditional-statements.md)
+- [Exercise 07: Using while loop](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/07-using-while-loop.md)
+- [Exercise 08: More on loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/08-more-on-loops.md)
 
 ---
 

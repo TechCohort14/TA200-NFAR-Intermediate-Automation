@@ -58,4 +58,6 @@ Create a loop that will log a warning message when you down to a quater tank of 
 
 Create a loop that will tell you how many gallons are required for your trip. Let's assume that your vehicle gets 22 miles per gallon, and the trip is 100 miles.
 
-Create 2 other scenarios and creat a loop toi solve them.
+Create 2 other scenarios and creat a loop to solve them.
+
+Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
