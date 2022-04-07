@@ -14,14 +14,13 @@ In JavaScript, when we need to perform an action based on a condition, we use co
 
 **Note:** *Remember that Javascript is case-sensitive. `if` should be in lowercase letters. `If` or `IF` will throw an error.*
 
-
 ```js
 if (condition) {
   //  this block of code will be executed if the condition is true
 }
 ```
 
-**Example**
+### Example
 
 In the example below, if `time` is greater than or equal to `19`, then log `"Good Night"`.
 
@@ -45,10 +44,9 @@ if (condition) {
 }
 ```
 
-**Example**
+### Example 2
 
 In the example below if `time` is greater than `19` or 7 PM, then the log will be `"Good Night"`. Else it will return `"Good Day"`
-
 
 ```js
 if (time > 19) {
@@ -74,10 +72,9 @@ if (condition #1) {
 }
 ```
 
-**Example**
+### Example 3
 
-In the example below if `time` is greater than `19` or 7 PM, then the log will be `"Good Night"`. Else it will return 
-
+In the example below if `time` is greater than `19` or 7 PM, then the log will be `"Good Night"`. Else it will return
 
 ```js
 if (time > 19) {
@@ -91,49 +88,46 @@ if (time > 19) {
 
 ---
 
-
 ## Setup Webdriver
 
-
-1. Create a new folder;
-
-```sh
-$ mkdir usingConditionals
-```
-
-2. Change directory into the new folder:
+- Create a new folder;
 
 ```sh
-$ cd usingConditionals
+mkdir usingConditionals
 ```
 
-3. Install web driver.io
+- Change directory into the new folder:
 
 ```sh
-$ npm init wdio .
+cd usingConditionals
 ```
 
-4. Select the default for all options.
+- Install web driver.io
+
+```sh
+npm init wdio .
+```
+
+- Select the default for all options.
 
 ## Commit your work
 
-1. Initialize a version control (git) for your project
+- Initialize a version control (git) for your project
 
 ```sh
 git init
 ```
 
-2. Open VS Code, create a `.gitignore` file, and add `node_modules` to it.
+- Open VS Code, create a `.gitignore` file, and add `node_modules` to it.
 
-3. Add your initial files
+- Add your initial files
 
 ```sh
-$ git add .
-$ git commit -m "adds tests and folder"
+git add .
+git commit -m "adds tests and folder"
 ```
 
 ---
-
 
 ## Skip Default Test
 
@@ -151,37 +145,20 @@ Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.
 
 1. Begin by creating a file in the `page objects` folder called `checkboxes.page.js`
 
+2. Create the `class`, `selectors`, and anything required to select elements on the 'add/ remove page'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on creating how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use multiple different types of selectors to complete this assignment.
 
-2. Create the `class`, `selectors`, and anything required to select elements on the 'add/ remove page'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on creating how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use multiple different types of selectors to complete this assignment. 
-
-
-3. Create your test called `checkboxes.spec.js`. Use the `example.e2e` file as an example. 
-
+3. Create your test called `checkboxes.spec.js`. Use the `example.e2e` file as an example.
 
 ---
 
 Exit Criteria.
 
+1. Create an `if` statement.
 
-1. Create an `if` statement. 
-
-2. The condition: is checkbox1 unchecked . 
+2. The condition: is checkbox1 unchecked.
 
 3. The action: click checkbox1 if the condition is true.
-
-
 
 ## Bonus
 
 Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
-
-
-
-
-
-
-
-
-
-
-
