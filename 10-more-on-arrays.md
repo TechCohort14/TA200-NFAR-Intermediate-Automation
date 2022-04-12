@@ -26,7 +26,7 @@ code .
 
 ## Exercise
 
-Create an array called arrExample with the following entry: 434.43. Use the push method to add the following elements to the array.
+Create an array called arrExample with the following entry: 434.43. Use the [push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method to add the following elements to the array.
 Add items a & b one at a time, then use a single push to add the items in part c.
 Print the array after each step to confirm the changes.
 
@@ -54,7 +54,7 @@ Which array methods ADD elements, and where are the new entries placed? Which me
 
 ---
 
-The splice method can be used to either add or remove items from an array. It can also accomplish both tasks at the same time. Checkout the [splice](https://www.w3schools.com/jsref/jsref_splice.asp) to get familiar with the syntax. Use splice to make the following changes to the final supplyKit array from exercise 2. Be sure to log the array after each step to confirm your updates.
+The splice method can be used to either add or remove items from an array. It can also accomplish both tasks at the same time. Checkout the [splice](https://www.w3schools.com/jsref/jsref_splice.asp) docs to get familiar with the syntax. Use splice to make the following changes to the final supplyKit array from exercise 2. Be sure to log the array after each step to confirm your updates.
 
 a. Insert the string `'rope'` at index 3 without replacing any other entries.
 
