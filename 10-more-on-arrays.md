@@ -97,7 +97,7 @@ b. Given the array myArray = ['A', 'c', 'c', 7], see what happens when you log m
 
 c. Do split or join change the original string/array?
 
-d. Alphabetize these: `"coffee,tea,juice,water,wine"`, and then combine them into a new string. Try it!
+<!-- d. Alphabetize these: `"coffee,tea,juice,water,wine"`, and then combine them into a new string. Try it! -->
 
 ---
 
