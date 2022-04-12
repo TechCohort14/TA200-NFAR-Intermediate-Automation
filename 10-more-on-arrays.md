@@ -30,9 +30,9 @@ Create an array called arrExample with the following entry: 434.43. Use the push
 Add items a & b one at a time, then use a single push to add the items in part c.
 Print the array after each step to confirm the changes.
 
-a). 9
-b). "hello world"
-c). true, -3.9, "152"
+a. 9
+b. "hello world"
+c. true, -3.9, "152"
 
 ---
 
