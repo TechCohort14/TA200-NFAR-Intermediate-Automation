@@ -88,7 +88,7 @@ c. `reverse` the first array, and sort the second. What is the difference betwee
 
 ---
 
-The `split` method converts a string into an array, while the `join` method does the opposite.
+The [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method converts a string into an array, while the [join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) method does the opposite.
 
 a. Given the string `message = 'In the forest, no one can hear you code.'`, see what happens when you log message.split() vs. message.split('e') vs. message.split(' ') vs. message.split(''). What is the purpose of the parameter inside the ()?
 Give it a try.
