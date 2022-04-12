@@ -38,7 +38,7 @@ c. true, -3.9, "152"
 
 ---
 
-The `push`, `pop`, `shift` and `unshift` array methods are used to add/remove elements from the beginning/end of an array. Bracket notation can be used to modify any element within an array. Create an array called supplyKit which contains the following elements`['rain coat', 'matches', 'blanket', 'water', 'meal packs', 'knife', 'first aid']`, write statements to do the following:
+The [push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push), [pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop), [shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) and [unshift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) array methods are used to add/remove elements from the beginning/end of an array. Bracket notation can be used to modify any element within an array. Create an array called supplyKit which contains the following elements`['rain coat', 'matches', 'blanket', 'water', 'meal packs', 'knife', 'first aid']`, write statements to do the following:
 
 a. Use bracket notation to replace `'matches'` in the array with `'lighter'`. Log the array to confirm the change.
 
