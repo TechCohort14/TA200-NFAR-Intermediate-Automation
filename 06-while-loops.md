@@ -33,10 +33,8 @@ while (condition) {
 
 An expression is evaluated before each iteration through the loop. If this `condition` evaluates to true, the `statement` is executed. When the `condition` evaluates to false, execution continues to the `statement` outside of the `while` loop.
 
-
 `statement`
 An optional statement that will execute as long as the condition evaluates to true. You can use a block statement to execute multiple statements.
-
 
 ---
 
@@ -77,7 +75,6 @@ true && "cat"
 // returns "cat"
 ```
 
-
 ### Falsy
 
 A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
@@ -86,19 +83,16 @@ JavaScript uses type conversion to coerce any value to a Boolean in contexts tha
 
 The following table provides a complete list of JavaScript falsy values:
 
-
-
 |  Value             | Description                                                                                     |
 |--------------------|:-----------------------------------------------------------------------------------------------:|
 | `false`            | False.                                                                                          |
 | `0`                | The Number zero. This includes, 0x0, etc., and 0.0.                                             |
-| `-0`               | The Number negative zero. This includes, -0x0, etc., and -0.0.                                  | 
-| `0n`               | The BigInt zero. This includes 0x0n. There is no BigInt negative zero. The negation of 0n is 0n.| 
-| `""`, `''`, ` `` ` | Empty string.                                                                                   | 
-| `undefined`        | Not defined. A primitive value.                                                                 | 
-| `null`             | Nothingness. The absence of any value.                                                          | 
+| `-0`               | The Number negative zero. This includes, -0x0, etc., and -0.0.                                  |
+| `0n`               | The BigInt zero. This includes 0x0n. There is no BigInt negative zero. The negation of 0n is 0n.|
+| `""`, `''`, ` `` ` | Empty string.                                                                                   |
+| `undefined`        | Not defined. A primitive value.                                                                 |
+| `null`             | Nothingness. The absence of any value.                                                          |
 | `NaN`              | Not a number                                                                                    |
-
 
 The following are examples of falsy values in JavaScript. These examples are coerced to false in Boolean contexts, and as a  result , does **not** execute the `while` loop:
 
@@ -115,10 +109,9 @@ while ("")
 
 ```
 
-#### The logical AND operator, `&&`
+#### Logical AND operator, `&&`
 
 In the example below, if the first object is falsy, that object will be returned.
-
 
 ```js
 false && "cat"
@@ -127,7 +120,6 @@ false && "cat"
 0 && "cat"
 // ↪ 0
 ```
-
 
 #### The logical OR operator, `||`
 
@@ -174,32 +166,31 @@ Practice using `while` loops by completing the following exercises.
 
 ## Setup
 
-
-1. Create a new folder;
+1). Create a new folder;
 
 ```sh
 mkdir while-loop-exercise
 ```
 
-2. Change directory into the new folder:
+2). Change directory into the new folder:
 
 ```sh
 cd while-loop-exercise
 ```
 
-3. Create a file called `exercises.js`
+3). Create a file called `exercises.js`
 
-4. Begin writing you code to solve complete each exercise.
+4). Begin writing you code to solve complete each exercise.
 
-5. You can run your code by running `node exercise.js` 
+5). You can run your code by running `node exercise.js`
 
-6. Comment each exercise after completion, so that it doesn't run when you test the next exercise.
+6). Comment each exercise after completion, so that it doesn't run when you test the next exercise.
 
 ---
 
 ## Exercises
 
-1. Write a loop that logs numbers from `1` to `9`
+1). Write a loop that logs numbers from `1` to `9`
 
 ```javascript
 let i = 0;
@@ -210,15 +201,14 @@ while (i < 10) {
 }
 ```
 
-2. Write a loop that logs the numbers `9` to `1`.
+2). Write a loop that logs the numbers `9` to `1`.
 
-3. Write a loop that returns that takes the variable `num` which has a value of `10000`, and divide by `2` until `num` is less than `10`. Log each iteration of the loop.
+3). Write a loop that returns that takes the variable `num` which has a value of `10000`, and divide by `2` until `num` is less than `10`. Log each iteration of the loop.
 
-4. Write a while loop that logs the number `1` through `12` but skips the number `3`. You may need to use an `if` statement inside your loop. *There is an easy way to skip a number in a loop. Try to find it.*
+4). Write a while loop that logs the number `1` through `12` but skips the number `3`. You may need to use an `if` statement inside your loop. *There is an easy way to skip a number in a loop. Try to find it.*
 
-5. Write a while loop that logs the number `1` through `12` but skips the number `3` and the number `6`. Use the `logical OR`.
+5). Write a while loop that logs the number `1` through `12` but skips the number `3` and the number `6`. Use the `logical OR`.
 
 ---
-
 
 Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
