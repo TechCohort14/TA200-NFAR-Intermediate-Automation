@@ -17,7 +17,7 @@ let listOf =
       ----------------------------------
    2 | Red      | Yellow        | Blue  |
       ----------------------------------
-   3 | Red      | Yellow        | Blue  |
+   3 | North    | South         | East  |
   ```
 
 ## Two Dimensional Arrays
