@@ -8,7 +8,6 @@ The example below demonstrates an array called `listOf` has arrays as values. Th
 let listOf =
 ```
 
-```md
      | 0        |      1        |  2    |
      |:--------:|:-------------:|:-----:|
    0 | apples   |  bananas      | plums |
@@ -18,7 +17,6 @@ let listOf =
    2 | Red      | Yellow        | Blue  |
       ----------------------------------
    3 | North    | South         | East  |
-  ```
 
 ## Two Dimensional Arrays
 
