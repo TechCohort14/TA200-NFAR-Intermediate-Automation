@@ -8,12 +8,15 @@ The example below demonstrates an array called `listOf` that has arrays as value
 let listOf =
 ```
 
+```js
+
      | 0        |      1        |  2    |
      |:--------:|:-------------:|:-----:|
    0 | apples   | bananas       | plums |
    1 | Ford     | Toyota        | Honda |
    2 | Red      | Yellow        | Blue  |
    3 | North    | South         | East  |
+```
 
 ## Two Dimensional Arrays
 
