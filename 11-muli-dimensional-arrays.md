@@ -94,7 +94,7 @@ There are generally no limit to how many dimensions you can have when creating a
 
 ## Check Your Understanding
 
-What are the two dimensional indexes for "Jeff"?
+What are the two dimensional indexes for "Bob"?
 
 ```js
 let friends = [
