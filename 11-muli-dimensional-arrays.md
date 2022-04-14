@@ -25,7 +25,7 @@ One type of multi-dimensional array is the Two Dimensional array. This is the si
 **Note**
 *The row and column analogy is used to help visualize a two dimensional array, however it's not a perfect analogy. There are no specific JavaScript language rules forcing the inner arrays to all have the same length. The inner arrays are separate arrays that can be of different length.*
 
-This example uses a two dimensional array to contain three different lists of space shuttle crews.
+This example uses a two dimensional array to contain three different lists of super heroes.
 
 ```js
 let superHeroes = [
@@ -34,9 +34,9 @@ let superHeroes = [
    ['Goku', 'Vegeta',  'Gohan']
 ];
 
-console.log(shuttleCrews[0][2]);
-console.log(shuttleCrews[1][1]);
-console.log(shuttleCrews[2][1]);
+console.log(superHeroes[0][2]);
+console.log(superHeroes[1][1]);
+console.log(superHeroes[2][1]);
 ```
 
 Output
