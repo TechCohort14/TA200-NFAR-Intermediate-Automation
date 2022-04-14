@@ -41,9 +41,9 @@ console.log(superHeroes[2][1]);
 
 Output
 
-Spiderman
+<!-- Spiderman
 Storm
-Vegeta
+Vegeta -->
 
 ## Multi-Dimensions and Array Methods
 
@@ -75,13 +75,18 @@ let newHeroes = ['Invisible Woman', 'Thing', 'Human Torch'];
 // Try this
 
 // Add a new newHeroes array to the end of superHeroes
-superHeroes.push(newHeroes);
-console.log(superHeroes[3][2]);
+
 
 // Reverse the order of the superHeroes at index 1
-superHeroes[1].reverse();
-console.log(superHeroes[1]);
 ```
+
+<!-- push superheroes array
+superHeroes.push(newHeroes);
+console.log(superHeroes[3][2]); -->
+
+<!-- Reverse array
+superHeroes[1].reverse();
+console.log(superHeroes[1]); -->
 
 ## Beyond Two Dimensional Arrays
 
@@ -101,3 +106,5 @@ let friends = [
 How would you add "Jeff" to the array at friends[0]?
 
 How would you add "Holmes" to the array at friends[1]?
+
+We've covered a lot on arrays. Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
