@@ -1,6 +1,6 @@
 # Exercise 11: Multi-Dimensional Arrays
 
-In the previous lesson we learned anout the different characteristics of an array. We also practiced using methods to interact with our arrays. One characteristic of an array is that it can store multiple values with different types. Arrays have the ability to store, numbers, string, boolean, and even arrays. An array within an array is called a multi-dimensional array. A better way of saying this is, a multi-dimensional array is an array where the values inside of the array are also arrays. The inner arrays can store many other values. These values can include strings, numbers, or even more arrays.
+In the previous lesson we learned about the different characteristics of an array. We also practiced using methods to interact with our arrays. One characteristic of an array is that it can store multiple values with different types. Arrays have the ability to store, numbers, string, boolean, and even arrays. An array within an array is called a multi-dimensional array. A better way of saying this is, a multi-dimensional array is an array where the values inside of the array are also arrays. The inner arrays can store many other values. These values can include strings, numbers, or even more arrays.
 
 The example below demonstrates an array called `listOf` that has arrays as values. The inner arrays contain words that are related in some way, like fruits, cars, colors, etc. Notice each inner array has an index position.
 
@@ -94,7 +94,7 @@ There are generally no limit to how many dimensions you can have when creating a
 
 ## Check Your Understanding
 
-What are the two dimensional indexes for "Jones"?
+What are the two dimensional indexes for "Jeff"?
 
 ```js
 let friends = [
