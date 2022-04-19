@@ -1,6 +1,6 @@
 # Exercise 12: Objects
 
-Similaly to Arrays an object in JavaScript can hold several pieces of information. An object is a collection of unordered key-value pairs. The key-value pairs are called a properies.
+Similaly to Arrays an object in JavaScript can hold several pieces of information. An object is a collection of unordered key-value pairs. The key-value pairs are called a properties.
 
 The key of a property can only be a string, while the value of a property can be any value, for example, a string, a number, an array, and even a function.
 
@@ -148,7 +148,7 @@ Objects in other programming languages such as Java and C#, are more strict and 
 The following statement adds the `age` property to the `president` object and assigns `57`to it:
 
 ```shell
-president.age = 25;
+president.age = 57;
 ```
 
 ## Deleting a property
@@ -204,7 +204,7 @@ true
 - The `delete` operator removes a property from an object.
 - The `in` operator check if a property exists in an object.
 
-### Practice
+### Practice Exercise 1
 
 For each of the exercises below, assume you are starting with the following programming object.
 
@@ -247,5 +247,29 @@ touch main.js
 5. Using a loop, iterate through the languages array and console.log all of the languages.
 6. Using a loop, console.log all of the keys in the learningToCode object.
 7. Using a loop, console.log all of the values in the learningToCode object.
+
+### Practice Exercise 2
+
+#### Bake a cake
+
+A simple recipe card!
+
+Create an object to holds the recipe of your favorite cake. It should have properties for `title` (a string), `servings` (a number), and `ingredients` (an array of strings).
+On separate lines (one `console.log` statement for each), log the recipe information so it looks like:
+
+- Chocolate Cake
+- Serves: 8
+- Ingredients:
+- flour
+- egg
+- chocolate
+
+#### Restaurant to visit
+
+Track which restaraunts you've visited and the ones you still want to visit!
+
+Create an array of objects, where each object describes a restaraunt and has properties for the `name` (a string), `city` (a string), and `alreadyVisited` (a boolean indicating if you've visited it yet).
+Iterate through the array of restaraunts. For each restaraunt, log the restaraunt name and restaraunt city like so: "Miguels in San Diego".
+Now use an if/else statement to change the output depending on whether you have visited it yet or not. If you visited it, log a string like 'You already visited "Miguels" in San Diego, and if not, log a string like 'You still need to visit "Miguels" in San Diego.'
 
 We've covered a lot on objects. Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
