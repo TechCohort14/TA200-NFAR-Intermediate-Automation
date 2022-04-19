@@ -18,6 +18,8 @@
 - [Exercise 08: More on loops](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/08-more-on-loops.md)
 - [Exercise 09: Arrays](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/09-arrays.md)
 - [Exercise 10: More on Arrays](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/10-more-on-arrays.md)
+- [Exercise 11: Multi Dimensional Arrays](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/11-muli-dimensional-arrays.md)
+- [Exercise 12: More on Arrays](https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/12-objects.md)
 
 ---
 
