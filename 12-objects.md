@@ -1,6 +1,6 @@
 # Exercise 12: Objects
 
-Similaly to Arrays an object in JavaScript can hold several pieces of information. An object is a collection of unordered key-value pairs. The key-value pairs are called a properties.
+Similaly to arrays an object in JavaScript can hold several pieces of information. An object is a collection of unordered key-value pairs. The key-value pairs are called a properties.
 
 The key of a property can only be a string, while the value of a property can be any value, for example, a string, a number, an array, and even a function.
 
@@ -55,7 +55,7 @@ console.log(person.firstName);
 console.log(person.lastName);
 ```
 
-2). Bracket- notation / Array-like notation ([])
+2). Bracket-notation / Array-like notation ([])
 
 The following illustrates how to access the value of an object’s property via the array-like notation:
 
@@ -79,7 +79,7 @@ When a property name contains spaces, you need to place it inside quotes. For ex
 
 ```js
 let address = {
-    'building number': 3960,
+    'building number': 467,
     street: 'East 51st street',
     state: 'CA',
     country: 'USA'
@@ -177,7 +177,7 @@ propertyName in objectName
 
 The `in` operator returns `true` if the `propertyName` exists in the `objectName`.
 
-The following example creates an `student` object and uses the `in` operator to check if the `age` and `studentId` properties exist in the object:
+The following example creates a `student` object and uses the `in` operator to check if the `age` and `studentId` properties exist in the object:
 
 ```js
 let student = {
