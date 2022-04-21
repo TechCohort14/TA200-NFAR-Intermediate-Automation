@@ -10,7 +10,7 @@ We mentioned that:
 - The `delete` operator removes a property from an object.
 - The `in` operator check if a property exists in an object.
 
-A great way to think of objects is to compare them to objects in real life. The following example shows the coorlation between an inobject in the real world and objects in JavaScript.
+A great way to think of objects is to compare them to objects in real life. The following example shows the coorlation between an object in the real world and objects in JavaScript.
 
 ![js-object-example](assets/js_object2.png)
 
