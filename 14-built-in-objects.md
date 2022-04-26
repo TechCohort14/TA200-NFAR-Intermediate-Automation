@@ -4,7 +4,7 @@ Now that we've had some  practice with Objects, let's take a look at some of Jav
 
 ## What are Javascript's built-in Objects?
 
-JavaScript provides several built-in objects that are available to use out  the box. Each object has it's own properties, and methods associated with it. We will take a look at the Math, Array, Date, and String objects.
+JavaScript provides several built-in objects that are available to use out  the box. Each object has it's own properties, and methods associated with it. We will take a look at the Math objects.
 
 ### Math Object
 
