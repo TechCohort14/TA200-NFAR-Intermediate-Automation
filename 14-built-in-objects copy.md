@@ -56,8 +56,6 @@ Try using the `.ceil` method.
 Try using the `.trunc` method.
 Try using the `.random` method
 
-Exercises
-
 1). Write a function to generate a random number.
 Function `genRandom()` return a generated random integer number between the provided start and end range.
 
@@ -71,5 +69,10 @@ Function `areaOfACircle()` returns the area of the circle provided the radius as
 Radius = 30
 Radius = 20
 Radius = 10
+
+### Date
+
+An objects represent a single moment in time in a platform-independent format. Date objects contain a Number that represents milliseconds since 1 January 1970 UTC.
+Exercises
 
 Complete the [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) section of the Free Code Camp Curriculum.
