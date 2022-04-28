@@ -608,4 +608,4 @@ console.log(capitalize('my string exercises'));
 // should return "My string exercises"
 ```
 
-Complete the [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) section of the Free Code Camp Curriculum.
+Continue to work on the [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) section of the Free Code Camp Curriculum.
