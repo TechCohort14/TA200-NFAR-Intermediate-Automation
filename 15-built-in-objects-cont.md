@@ -464,7 +464,7 @@ Reflects the length of the string. Read-only.
 
 Creates a new String object. It performs type conversion when called as a function, rather than as a constructor, which is usually more useful.
 
-### Array Instance methods
+### String Instance methods
 
 `String.prototype.at(index)` Experimental
 Returns the character (exactly one UTF-16 code unit) at the specified index. Accepts negative integers, which count back from the last string character.
