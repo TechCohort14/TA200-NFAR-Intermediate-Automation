@@ -574,25 +574,38 @@ Returns a new iterator object that iterates over the code points of a String val
 1). Write a JavaScript function to check whether a string is blank or not.
 
 Test Data :
-console.log(is_Blank(''));
-<!-- should return true -->
 
+```js
+console.log(is_Blank(''));
+// should return true 
+```
+
+```js
 console.log(is_Blank('xyz'));
-<!-- should return false -->
+// should return false
+```
 
 2). Write a JavaScript function to check whether an 'input' is a string or not.
 
 Test Data:
+
+```js
 console.log(isInputAString('helloWorld'));
-<!-- should return true -->
+// should return true
+```
+
+```js
 console.log(isInputAString([0, 1, 2, 4, 5]));
-<!-- should return false -->
+// should return false
+```
 
 3). Write a JavaScript function to capitalize the first letter of a string.
 
 Test Data :
 
+```js
 console.log(capitalize('my string exercises'));
-<!-- should return "My string exercises" -->
+// should return "My string exercises"
+```
 
 Complete the [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) section of the Free Code Camp Curriculum.
