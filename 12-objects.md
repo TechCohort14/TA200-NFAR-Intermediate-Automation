@@ -271,5 +271,3 @@ Track which restaurants you've visited and the ones you still want to visit!
 Create an array of objects, where each object describes a restaurant and has properties for the `name` (a string), `city` (a string), and `alreadyVisited` (a boolean indicating if you've visited it yet).
 Iterate through the array of restaurants. For each restaurant, log the restaurant name and restaurant city like so: "Miguels in San Diego".
 Now use an if/else statement to change the output depending on whether you have visited it yet or not. If you visited it, log a string like 'You already visited "Miguels" in San Diego, and if not, log a string like 'You still need to visit "Miguels" in San Diego.'
-
-We've covered a lot on objects. Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

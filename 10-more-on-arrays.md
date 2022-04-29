@@ -116,5 +116,3 @@ c. Use bracket notation to examine the difference between printing `table[1]` an
 d. Using bracket notation and the table array, print the mass of elem1, the name for elem 2 and the symbol for elem26.
 
 e. table is an example of a 2-dimensional array. The first "level" contains the element arrays, and the second level holds the name/symbol/mass values. Experiment! Create a 3-dimensional array and print out one entry from each level in the array.
-
-We've covered a lot on arrays. Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

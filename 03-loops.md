@@ -15,6 +15,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 ```
+
 In Javascript there are many different kinds of loops however, but they all do essentially the same thing, which is repeat an action a number of times. (Keep in mind that it's possible that number could be zero!)
 
 ---
@@ -28,6 +29,7 @@ for ([initialExpression]; [conditionExpression]; [incrementExpression]) {
   statement
   }
 ```
+
 - The inital expression is executed (one time) before the execution of the code block.
 
 - The condition expression defines the condition for executing the code block.
@@ -39,6 +41,7 @@ for (let i = 0; i < 7; i++) {
   text += "The number is " + i + "<br>";
 }
 ```
+
 From the example above, you can read:
 
 The first section sets a variable before the loop starts (let i = 0).
@@ -46,8 +49,6 @@ The first section sets a variable before the loop starts (let i = 0).
 The second section defines the condition for the loop to run (i must be less than 7).
 
 The third section increases a value (i++) each time the code block in the loop has been executed.
-
-
 
 When a `for` loop executes, the following occurs:
 
@@ -61,10 +62,9 @@ When a `for` loop executes, the following occurs:
 
 5. Control returns to Step 2.
 
-**Example**
+### Example
 
 In the example below, the function contains a `for` statement that counts the number of selected options in a scrolling list (a `<select>` element that allows multiple selections). The for statement declares the variable `i` and initializes it to 0. It checks that `i` is less than the number of options in the `<select>` element, performs the succeeding if statement, and increments `i` by 1 after each pass through the loop.
-
 
 ```javascript
 <form name="selectForm">
@@ -120,7 +120,7 @@ The statement is always executed once before the condition is checked. In order 
 
 If the `condition` is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is `false`, execution stops, and control passes to the statement following `do...while`.
 
-**Example**
+### Example 2
 
 In the following example, the `do` loop iterates at least once and reiterates until `i` is no longer less than 9.
 
@@ -136,20 +136,20 @@ do {
 
 ## `while` statement
 
-
 A `while` statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
 
 ```js
 while (condition)
   statement
 ```
+
 If the condition becomes `false`, statement within the loop stops executing and control passes to the statement following the loop.
 
 The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns `false`, execution stops, and control is passed to the statement following `while`.
 
 To execute multiple statements, use a block statement (`{ ... }`) to group those statements.
 
-**Example**
+### Example 3
 
 The following `while` loop iterates as long as n is less than 3:
 
@@ -169,7 +169,7 @@ After the second pass: y = 2 and z = 3
 After the third pass: y = 3 and z = 6
 After completing the third pass, the condition y < 3 is no longer true, so the loop terminates.
 
-**Example**
+### Example 4
 
 Avoid infinite loops. Make sure the condition in a loop eventually becomes false—otherwise, the loop will never terminate! The statements in the following while loop execute forever because the condition never becomes false:
 
@@ -179,4 +179,3 @@ while (true) {
   console.log('Hello, world!');
 }
 ```
-Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

@@ -158,7 +158,3 @@ Exit Criteria.
 2. The condition: is checkbox1 unchecked.
 
 3. The action: click checkbox1 if the condition is true.
-
-## Bonus
-
-Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

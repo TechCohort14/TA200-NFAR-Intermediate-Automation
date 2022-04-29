@@ -94,5 +94,3 @@ describe('My Login application', () => {
 ```
 
 Now you give it a try. Create a method that runs a set of instructions when called. Use any one of the pages on [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/).
-
-Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

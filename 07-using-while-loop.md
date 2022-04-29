@@ -92,5 +92,3 @@ Exit Criteria.
 1. What would you use in webdriver to accomplish the same thing.
 
 2. Set up Selenium Grid
-
-3. Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

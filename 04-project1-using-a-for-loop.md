@@ -87,7 +87,3 @@ Exit Criteria.
 
 5). Verify that only 3 "Delete" elements exists.
    `it('should have only three "Delete" elements remaining', async () => {`
-
-## Bonus
-
-Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

@@ -24,7 +24,7 @@ This means that in the browser, JavaScript can change the way the webpage (DOM) 
 Javascript is case-sensitive, so the variables `fun` and `Fun` are not equal. Instructions in Javascript are called statements and are separated by a semicolon. `(;)`
 Writing a semicolon after a statement even when it is not strictly needed, is considered best practice. This reduces the chances of introducing bugs into the code.
 
-**Declarations**
+### Declarations
 
 There are 3 types of variable declarations in Javascript, `var`, `let`, `const`.
 
@@ -35,6 +35,7 @@ Declares a variable, optionally initializing it to a value.
 ```js
 var age = 10;
 ```
+
 or...
 
 ```js
@@ -63,18 +64,17 @@ JavaScript identifiers must start with a letter, underscore (_), or a dollar sig
 
 JavaScript is case-sensitive. It is important to remember that letters include the characters "A" through "Z" (uppercase) as well as "a" through "z" (lowercase).
 
-
 There are two ways to declare a variable:
 
--  Using the keyword `var`
+- Using the keyword `var`
 
 ```js
 var a = 30
 ```
+
 You can use this syntax to declare both local and global variables, depending on the execution context.
 
-
--  Using the keyword `let` or `const`
+- Using the keyword `let` or `const`
 
 ```js
 let b = 10
@@ -88,17 +88,16 @@ A variable is considered a global variable when it is declared outside of any fu
 
 A variable is considered a local variable when it is declared within a function. It is only available within that function.
 
-
 If a variable is declared without being assigned a value, the value is considered undefined.
 
-Attempting to access an undeclared variable will throw a ReferenceError. 
+Attempting to access an undeclared variable will throw a ReferenceError.
 
 ```js
 var n;
 console.log('The value of n is equal to' + n); // The value of n is equal to undefined
 ```
 
-**Constants**
+### Constants
 
 Constants are read-only variables. You can create them using the keyword `const`.
 
@@ -132,7 +131,7 @@ function f() {
 
 There are eight data types:
 
-*Seven primitive*
+### Seven primitive
 
 1. Boolean -  means either `true` or `false`
 2. null - a special keyword denoting a null value (Nothingness).
@@ -142,7 +141,6 @@ There are eight data types:
 6. String - a sequence of characters that represent a text value. For example: "Hello"
 7. Symbol -  a data type whose instances are unique and immutable.
 8. Object - you can think of Objects as a named container for values.
-
 
 Variables and data types go hand in hand. A variable's purpose is to store data. Data types are simply the types of data that can be stored in variables.
 
@@ -172,5 +170,3 @@ console.log(result);
 
 // This will log: 15
 ```
-
-Take the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.

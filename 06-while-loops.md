@@ -210,5 +210,3 @@ while (i < 10) {
 5). Write a while loop that logs the number `1` through `12` but skips the number `3` and the number `6`. Use the `logical OR`.
 
 ---
-
-Continue working on the [Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) training on Basic Javascript to gain a further understanding of topics that we've covered.
