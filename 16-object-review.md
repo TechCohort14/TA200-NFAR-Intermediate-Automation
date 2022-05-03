@@ -20,6 +20,6 @@ Pseudocode each solution, then try to solve them. You may use [mdn](https://deve
 
 [Exercise 1](https://www.codewars.com/kata/542ebbdb494db239f8000046/train/javascript)
 
-[Exercise 2](https://www.codewars.com/kata/571effabb625ed9b0600107a)
+[Exercise 2](https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript)
 
-[Exercise 3](https://www.codewars.com/kata/5721a78c283129e416000999)
+[Exercise 3](https://www.codewars.com/kata/5721a78c283129e416000999/train/javascript)
