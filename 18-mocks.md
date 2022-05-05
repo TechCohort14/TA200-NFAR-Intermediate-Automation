@@ -1,4 +1,4 @@
-# Exercise 17: Mocks
+# Exercise 18: Mocks
 
 In this lesson, we will learn what an  API's are and also how and why we mock data.
 
