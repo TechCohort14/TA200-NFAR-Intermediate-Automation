@@ -15,13 +15,13 @@ Take a moment to review the links and familiarize yourself with the user interfa
 1). Create a new folder;
 
 ```sh
-mkdir SelectorsReview
+mkdir selectorsReview
 ```
 
 2). Change directory into the new folder:
 
 ```sh
-cd SelectorsReview
+cd selectorsReview
 ```
 
 3). Install web driver.io
