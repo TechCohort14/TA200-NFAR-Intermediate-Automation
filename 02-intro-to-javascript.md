@@ -19,7 +19,7 @@ This means that in the browser, JavaScript can change the way the webpage (DOM) 
 
 ---
 
-## Basic Grammer
+## Basic Grammar
 
 Javascript is case-sensitive, so the variables `fun` and `Fun` are not equal. Instructions in Javascript are called statements and are separated by a semicolon. `(;)`
 Writing a semicolon after a statement even when it is not strictly needed, is considered best practice. This reduces the chances of introducing bugs into the code.
