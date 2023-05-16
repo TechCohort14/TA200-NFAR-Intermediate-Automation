@@ -101,6 +101,52 @@ btn.addEventListener('click', function() {
 
 ```
 
+### `for loop` Exercise 1<br> 
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit. 
+
+---
+
+
+
+## `while` statement
+
+A `while` statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+
+```js
+while (condition)
+  statement
+```
+
+If the condition becomes `false`, statement within the loop stops executing and control passes to the statement following the loop.
+
+The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns `false`, execution stops, and control is passed to the statement following `while`.
+
+To execute multiple statements, use a block statement (`{ ... }`) to group those statements.
+
+### Example 2
+
+The following `while` loop iterates as long as n is less than 3:
+
+```js
+let y = 0;
+let z = 0;
+while (y < 3) {
+  y++;
+  z += y;
+}
+```
+
+With each iteration, the loop increments `y` and adds that value to `z`. Therefore, `z` and `y` take on the following values:
+
+After the first pass: y = 1 and z = 1
+After the second pass: y = 2 and z = 3
+After the third pass: y = 3 and z = 6
+After completing the third pass, the condition y < 3 is no longer true, so the loop terminates.
+
+### `do while` Exercise 2<br> 
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.
+
+
 ---
 
 ## `do while` Statement
@@ -120,7 +166,7 @@ The statement is always executed once before the condition is checked. In order 
 
 If the `condition` is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is `false`, execution stops, and control passes to the statement following `do...while`.
 
-### Example 2
+### Example 3
 
 In the following example, the `do` loop iterates at least once and reiterates until `i` is no longer less than 9.
 
@@ -132,42 +178,11 @@ do {
 } while (i < 9);
 ```
 
+### `do while` Exercise 3<br> 
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.
+
 ---
 
-## `while` statement
-
-A `while` statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
-
-```js
-while (condition)
-  statement
-```
-
-If the condition becomes `false`, statement within the loop stops executing and control passes to the statement following the loop.
-
-The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns `false`, execution stops, and control is passed to the statement following `while`.
-
-To execute multiple statements, use a block statement (`{ ... }`) to group those statements.
-
-### Example 3
-
-The following `while` loop iterates as long as n is less than 3:
-
-```js
-let y = 0;
-let z = 0;
-while (y < 3) {
-  y++;
-  z += y;
-}
-```
-
-With each iteration, the loop increments `y` and adds that value to `z`. Therefore, `z` and `y` take on the following values:
-
-After the first pass: y = 1 and z = 1
-After the second pass: y = 2 and z = 3
-After the third pass: y = 3 and z = 6
-After completing the third pass, the condition y < 3 is no longer true, so the loop terminates.
 
 ### Example 4
 
