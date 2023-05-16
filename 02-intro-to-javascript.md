@@ -8,7 +8,7 @@ In this lesson, we will discuss what JavaScript is. We will also go over some ba
 
 **What is Javascript?**
 
-JavaScript is a cross-platform, object-oriented scripting language used to add functionality and interactivity to web pages. For example, having clickable buttons, popup menus, etc. There are also more advanced server-side versions of JavaScript like Node.js, which allow you to add more functionality to a website, like real-time collaboration between multiple computers. Inside a host environment such as a web browser, JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+[JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) is a cross-platform, object-oriented [**scripting**](https://byjus.com/gate/difference-between-scripting-and-programming-languages/#:~:text=Scripting%20languages%20help%20write%20a,full%20code%20concerning%20a%20program.&text=These%20take%20less%20time%20because,must%20write%20the%20entire%20code.) language used to add functionality and interactivity to web pages. So working just with HTML (for structure), CSS (for styling), gives you a static webpage. Adding JavaScript (for interaction) will allow your to create a dynamic webpage. For example, having clickable buttons, popup menus, etc. There are also more advanced server-side versions of JavaScript like Node.js, which allow you to add more functionality to a website, like real-time collaboration between multiple computers. Inside a host environment such as a web browser, JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
 JavaScript contains a library of objects, such as `Date`, `Math`, and `Array`, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
 
@@ -170,3 +170,8 @@ console.log(result);
 
 // This will log: 15
 ```
+
+## Exercise: 
+Please log into [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/). Make sure to log in in order to keep track of your progress. Complete the first ten exercises up till **Declare a Read-Only Variable with the const Keyword**
+
+
