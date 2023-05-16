@@ -143,7 +143,7 @@ After the second pass: y = 2 and z = 3
 After the third pass: y = 3 and z = 6
 After completing the third pass, the condition y < 3 is no longer true, so the loop terminates.
 
-### `do while` Exercise 2<br> 
+### `while` Exercise 2<br> 
 Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.
 
 
