@@ -1,4 +1,4 @@
-# Exercise 18: Selectors Refersher
+# Exercise 18: Selectors Refresher
 
 Let's dive deeper in learning more about selectors and what WebDriver provides.
 
