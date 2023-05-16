@@ -179,7 +179,7 @@ do {
 ```
 
 ### `do while` Exercise 3<br> 
-Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.
 
 ---
 
