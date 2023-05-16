@@ -30,6 +30,9 @@ if (time >= 19) {
 }
 ```
 
+### `if` Exercise<br> 
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.  
+
 ---
 
 ### `else` Statements
