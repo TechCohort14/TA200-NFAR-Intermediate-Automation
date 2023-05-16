@@ -30,7 +30,7 @@ if (time >= 19) {
 }
 ```
 
-### `if` Exercise<br> 
+### `if` Exercise 1<br> 
 Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit.  
 
 ---
@@ -58,6 +58,9 @@ if (time > 19) {
   console.log("Good Day");
 }
 ```
+### `else` Exercise 2
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-statements) FreeCodeCamp exercise and once you are done come back here. Make sure to log in before completing exercise to get credit. 
+
 
 ---
 
@@ -88,9 +91,12 @@ if (time > 19) {
   console.log("Good Day");
 }
 ```
+### `else if` Exercise 3
+
+Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-if-statements) FreeCodeCamp exercise and once you are done come back here. Make sure to do up to "Chaining If Else Statements".  
 
 ---
-
+## WebDriverIO Exercise
 ## Setup Webdriver
 
 - Create a new folder;
