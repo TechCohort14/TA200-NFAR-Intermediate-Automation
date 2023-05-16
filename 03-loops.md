@@ -20,7 +20,7 @@ In Javascript there are many different kinds of loops however, but they all do e
 
 ---
 
-## `for` Loops
+## `for` Loop
 
 A `for` loop will repeats until a condition is false. A `for` loop looks like this:
 
@@ -108,7 +108,7 @@ Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-
 
 
 
-## `while` statement
+## `while` Loop
 
 A `while` statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
 
@@ -149,7 +149,7 @@ Navigate to [this](https://www.freecodecamp.org/learn/javascript-algorithms-and-
 
 ---
 
-## `do while` Statement
+## `do while` Loop
 
 The `do...while` statement will continue to repeats until a specified condition evaluates to false.
 
