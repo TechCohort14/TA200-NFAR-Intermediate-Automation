@@ -1,6 +1,6 @@
 # Exercise 16: Code Challenges
 
-For this exercise you will work on 3 code challenges. The object is not to complete each challenge, but to design the steps necessary to solve the problem (an algotithm). You can do this by using pseudo code.  Pseudocode is a "text-based" algorithmic design tool. In short, pseudocode allows you to write out the steps in your algotithm in plain english. Then you can go back and implement each step.
+For this exercise you will work on 3 code challenges. The object is not to complete each challenge, but to design the steps necessary to solve the problem (an algorithm). You can do this by using pseudo code.  Pseudocode is a "text-based" algorithmic design tool. In short, pseudocode allows you to write out the steps in your algotithm in plain english. Then you can go back and implement each step.
 
 ```js
 // Write a function that returns "greater than" if a number in an array is 5 or false if a number is less than 5.
