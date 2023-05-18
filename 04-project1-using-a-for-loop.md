@@ -87,3 +87,5 @@ Exit Criteria.
 
 5). Verify that only 3 "Delete" elements exists.
    `it('should have only three "Delete" elements remaining', async () => {`
+
+BONUS: Save screenshots after adding buttons and deleting buttons to have further confirmation.
