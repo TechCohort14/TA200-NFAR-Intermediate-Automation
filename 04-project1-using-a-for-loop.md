@@ -82,7 +82,7 @@ Exit Criteria.
 3). Verify that the elements have been added.
    `it('should haved five "Delete" elements', async () => {...`
 
-4). Delete 2 of the "Delete" elements.
+4). Create a `for` loop to to Delete 2 of the "Delete" elements.
    `it('should delete two "Delete" elements', async () => {...`
 
 5). Verify that only 3 "Delete" elements exists.
