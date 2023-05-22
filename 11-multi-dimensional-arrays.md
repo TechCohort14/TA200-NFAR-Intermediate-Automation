@@ -27,7 +27,9 @@ One type of multi-dimensional array is the Two Dimensional array. This is the si
 
 This example uses a two dimensional array to contain three different lists of super heroes.
 
-```js
+<img src=
+
+```
 let superHeroes = [
    ['Superman', 'Batman', 'Spiderman'],
    ['Wolverine', 'Storm', 'Cyclops'],
