@@ -42,7 +42,7 @@ console.log(superHeroes[2][1]);
 ```
 
 Output
-```
+```js
 Spiderman
 Storm
 Vegeta
