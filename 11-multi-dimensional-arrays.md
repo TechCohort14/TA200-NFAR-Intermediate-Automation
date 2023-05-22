@@ -40,11 +40,11 @@ console.log(superHeroes[2][1]);
 ```
 
 Output
-
-<!-- Spiderman
+```
+Spiderman
 Storm
-Vegeta -->
-
+Vegeta
+```
 ## Multi-Dimensions and Array Methods
 
 Both the inner and outer arrays in a multi-dimensional array can be altered with array methods. However, it is important to use bracket notation correctly.
