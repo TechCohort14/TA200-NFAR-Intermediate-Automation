@@ -29,7 +29,7 @@ This example uses a two dimensional array to contain three different lists of su
 
 <img src=
 
-```
+```js
 let superHeroes = [
    ['Superman', 'Batman', 'Spiderman'],
    ['Wolverine', 'Storm', 'Cyclops'],
