@@ -150,7 +150,7 @@ The most common way to skip tests is to comment them out in the code
 
 ## Create a test
 
-Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.com/checkboxes) page. Your assignment is to use a `if` statement that checks the value of checkbox1 to determine if it is checked or not. If it isn't, then select checkbox 1
+Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.com/checkboxes) page. Your assignment is to use a `if` statement that checks the value of checkbox1 to determine if it is checked or not. If it isn't, then click on checkbox 1. 
 
 1. Begin by creating a file in the `page objects` folder called `checkboxes.page.js`
 
@@ -166,7 +166,7 @@ Exit Criteria.
 
 2. The condition: is checkbox1 unchecked. [Hint](https://webdriver.io/docs/api/element/isSelected)
 
-3. The action: click checkbox1 if the condition is true.
+3. The action: click checkbox1 if the condition is false.
 
 4. The condition: is checkbox2 checked.
 
