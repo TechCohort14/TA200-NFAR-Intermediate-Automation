@@ -150,11 +150,11 @@ The most common way to skip tests is to comment them out in the code
 
 ## Create a test
 
-Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.com/checkboxes) page. Your assignment is to use a `if` statement that checks the value of checkbox1 to determine if it is checked or not. If it isn't, then click on checkbox 1. 
+Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.com/checkboxes) page. Your assignment is to use a `if` statement that checks the value of checkbox1 to determine if it is checked or not (checked = true; unchecked = false). If it isn't, then click on checkbox 1. 
 
 1. Begin by creating a file in the `page objects` folder called `checkboxes.page.js`
 
-2. Create the `class`, `selectors`, and anything required to select elements on the 'checkboxes'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use different types of selectors to complete this assignment.
+2. Create the `class`, `selectors`, and anything required to select elements on the 'checkboxes' page. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use different types of selectors to complete this assignment.
 
 3. Create your test called `checkboxes.spec.js`. Use the `example.e2e` file as an example.
 
@@ -166,9 +166,9 @@ Exit Criteria.
 
 2. The condition: is checkbox1 unchecked. [Hint](https://webdriver.io/docs/api/element/isSelected)
 
-3. The action: click checkbox1 if the condition is false.
+3. The action: click checkbox1 if the condition is false (unchecked).
 
-4. The condition: is checkbox2 checked.
+4. The condition: is checkbox2 checked (true).
 
 5. The action : click checkbox2 if the condition is true (the box should be unchecked when done). 
 
