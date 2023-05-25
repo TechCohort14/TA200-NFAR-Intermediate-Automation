@@ -154,7 +154,7 @@ Let's create a test that goes to the [Checkboxes](http://the-internet.herokuapp.
 
 1. Begin by creating a file in the `page objects` folder called `checkboxes.page.js`
 
-2. Create the `class`, `selectors`, and anything required to select elements on the 'add/ remove page'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on creating how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use multiple different types of selectors to complete this assignment.
+2. Create the `class`, `selectors`, and anything required to select elements on the 'checkboxes'. *Use the `login.page` as an example*. You may need to refer to the WebDriverIO docs on how to creating selectors [Selectors](https://webdriver.io/docs/selectors/) It may be necessary to use different types of selectors to complete this assignment.
 
 3. Create your test called `checkboxes.spec.js`. Use the `example.e2e` file as an example.
 
@@ -164,7 +164,7 @@ Exit Criteria.
 
 1. Create an `if` statement.
 
-2. The condition: is checkbox1 unchecked.
+2. The condition: is checkbox1 unchecked. [Hint](https://webdriver.io/docs/api/element/isSelected)
 
 3. The action: click checkbox1 if the condition is true.
 
