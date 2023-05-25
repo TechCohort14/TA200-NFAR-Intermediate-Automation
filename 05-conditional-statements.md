@@ -172,7 +172,8 @@ Exit Criteria.
 
 5. The action : click checkbox2 if the condition is true (the box should be unchecked when done). 
 
-6. Create a separate test spec. This time you want to make sure both boxes are checkboxes are unchecked. 
+6. The condition: make sure that both checkboxes unchecked before wrapping up the test.  
+7. The action: you will have to check the status of the check boxes, confirm that the check  
 
 BONUS: Navigate to FreeCodeCamp and do the [Golf Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
 
