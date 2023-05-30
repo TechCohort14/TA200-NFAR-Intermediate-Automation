@@ -1,0 +1,13 @@
+#21 - Create Account Online Automation
+
+NFAR is gearing up for its Annual Race and we need to you to test the new online registration form. Unfortunately most of the requirements that were used to build the website were lost in a data breach andf subsequest system crash. You are tasked to create a test suite using your ISTQB knowledge to recreate some of the requirements and a test suite. Using WebDriver I/O automate the test suite for the registration form to see if its working correctly.  The website you will be testing is https://nfar.rallybound.org/replicated/Account/Register 
+ 
+You will work in teams of two to get this done. Before you get started, explore the website and see how it works.
+
+
+
+Then organize your work using pseduo code before you start doing any code work. 
+
+How do you know you are done? 
+
+You should show a screenshot of your log in success page and all it cases have passed.  
