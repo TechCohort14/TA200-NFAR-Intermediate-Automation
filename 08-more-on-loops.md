@@ -54,7 +54,7 @@ while(fuelLevel < 12) {
 console.log(fuelLevel + " gallons is enough to begin your trip");
 ```
 
-Create a loop that will log a warning message when you down to a quater tank of gas. Let's assume that we start with a full tank at 12 gallons.
+Create a loop that will log a warning message when you are down to a quater tank of gas. Let's assume that we start with a full tank at 12 gallons.
 
 Create a loop that will tell you how many gallons are required for your trip. Let's assume that your vehicle gets 22 miles per gallon, and the trip is 100 miles.
 
