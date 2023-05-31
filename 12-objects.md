@@ -51,8 +51,8 @@ let president = {
     lastName: 'Adamns'
 };
 
-console.log(person.firstName);
-console.log(person.lastName);
+console.log(president.firstName);
+console.log(president.lastName);
 ```
 
 2). Bracket-notation / Array-like notation ([])
